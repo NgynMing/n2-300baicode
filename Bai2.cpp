@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main()
 {
@@ -6,6 +7,6 @@ int main()
     cin.tie(nullptr);
     int a;
     cin >> a;
-    cout << a * 4 << " " << a * a;
+    cout << fixed << setprecision(2) << a * 2 * 3.14 << " " << a * a * 3.14;
     return 0;
 }
